@@ -1,5 +1,5 @@
 {
-  "name": "formik-project",
+  "name": "@willynlabs/formik-project",
   "private": true,
   "devDependencies": {
     "got": "10.0.4",

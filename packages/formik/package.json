@@ -1,5 +1,5 @@
 {
-  "name": "formik",
+  "name": "@willynlabs/formik",
   "description": "Forms in React, without tears",
   "version": "2.1.4",
   "license": "MIT",
@@ -31,7 +31,7 @@
     "test:watch": "npm run test -- --watchAll",
     "start": "cross-env NODE_ENV=development tsdx watch --verbose",
     "prebuild": "rimraf dist",
-    "build": "cross-env NODE_ENV=production tsdx build --format=cjs,esm,umd",
+    "build": "cross-env NODE_ENV=production tsdx build --format=cjs,esm",
     "prepublish": "npm run build",
     "format": "prettier --trailing-comma es5 --single-quote --write 'src/**/*' 'test/**/*' 'README.md' '/docs/**/*.md'",
     "precommit": "lint-staged",
