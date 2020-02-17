@@ -1,7 +1,7 @@
 import * as React from 'react';
 import isEqual from 'react-fast-compare';
 import deepmerge from 'deepmerge';
-import isPlainObject from 'lodash/isPlainObject';
+import { isPlainObject } from 'lodash';
 import {
   FormikConfig,
   FormikErrors,

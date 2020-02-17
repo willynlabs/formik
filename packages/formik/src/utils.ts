@@ -1,5 +1,4 @@
-import clone from 'lodash/clone';
-import toPath from 'lodash/toPath';
+import { clone, toPath } from 'lodash';
 import * as React from 'react';
 
 // Assertions
